@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-gray-900 dark:text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-700;
+}
+
+/* Smooth transitions for dark mode */
+.dark {
+  color-scheme: dark;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Gradient text animation */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 animate-gradient;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 6s ease infinite;
+}
+
+/* Glow effects */
+.glow {
+  box-shadow: 0 0 15px theme('colors.blue.500');
+}
+
+.glow-text {
+  text-shadow: 0 0 10px theme('colors.blue.500');
+}
+
+/* Glass effect */
+.glass {
+  @apply bg-white bg-opacity-10 backdrop-blur-lg;
+}
+
+.dark .glass {
+  @apply bg-gray-900 bg-opacity-10;
+}
