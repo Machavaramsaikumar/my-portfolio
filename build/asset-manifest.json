@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb5f8a5f.css",
+    "main.js": "/static/js/main.332b6506.js",
+    "static/media/stellantis-logo.png": "/static/media/stellantis-logo.aa6c1aeb4bbc2dc5de9e.png",
+    "static/media/profile.jpg": "/static/media/profile.4f399441d9a0281df711.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.eb5f8a5f.css.map": "/static/css/main.eb5f8a5f.css.map",
+    "main.332b6506.js.map": "/static/js/main.332b6506.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb5f8a5f.css",
+    "static/js/main.332b6506.js"
+  ]
+}
