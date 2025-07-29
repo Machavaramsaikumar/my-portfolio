@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saikumar Machavaram | Portfolio</title>
-    <meta name="description" content="Portfolio of Saikumar Machavaram, Java Backend Developer" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  </head>
-  <body class="bg-white dark:bg-gray-900">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Hi Saikumar Machavaram | Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      background: #f5f6fc;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #2c3848;
+    }
+    .main-hero {
+      text-align: center;
+      padding: 3em 1em 2em 1em;
+      background: linear-gradient(120deg, #dbeafe 0%, #e0e7ff 100%);
+    }
+    .lead-hi {
+      font-size: 2.7rem;
+      font-weight: 700;
+      margin-bottom: 0.4em;
+      letter-spacing: .04em;
+    }
+    .downside, .motion-multi {
+      display: block;
+      font-size: 1.1rem;
+      color: #356aea;
+      background: #eeeff8;
+      margin: 5px auto 7px;
+      padding: 4px 9px;
+      border-radius: 6px;
+      max-width: 19em;
+    }
+    .motion-multi { 
+      font-size: 1.16rem; 
+      font-family: 'Noto Nastaliq Urdu', 'Noto Sans Telugu', Arial, sans-serif;
+      color: #22619d;
+      background: #fffbe7;
+    }
+    .core-style {
+      font-size: 2.1rem;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      color: #5931e8;
+      margin-bottom: 0.2em;
+      margin-top: 1em;
+      letter-spacing: 0.08em;
+    }
+    nav {
+      display: flex;
+      gap: 2.2em;
+      justify-content: center;
+      margin: 1.8em auto 1.2em auto;
+      font-size: 1.15rem;
+    }
+    nav a {
+      color: #263959; 
+      text-decoration: none; 
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: border .18s;
+    }
+    nav a:hover { border-bottom: 2px solid #356aea;}
+    section {
+      background: #fff;
+      margin: 2em auto 2em auto;
+      max-width: 740px;
+      border-radius: 9px;
+      box-shadow: 0 3px 13px #7ec9e414;
+      padding: 1.2em 2em;
+    }
+    h2 { color: #204072; margin-top: 0.6em; }
+    .proj-link, .res-link {
+      color: #246bea; margin-left: 3px; text-decoration: underline;
+    }
+    .footer {
+      text-align: center;
+      color: #b0b5c7;
+      font-size: 0.98rem;
+      margin-top: 3em;
+      margin-bottom: 1em;
+    }
+    @media (max-width:700px) {
+      section { padding: 1em;}
+      nav { gap: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-hero">
+    <div class="lead-hi">Hi Saikumar Machavaram</div>
+    <div class="downside motion-multi">ہاو موشن افیکٹ رے</div>
+    <div class="downside motion-multi">Ah... జావా డెవలపర్ అండ్ మాన్యువల్ ఎపిఐ టెస్టర్.</div>
+    <div class="downside motion-multi">and Functional Architect.</div>
+    <div class="core-style">کور</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" class="res-link">Resume</a>
+    </nav>
+  </div>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Enthusiastic Java developer &amp; Manual API Tester, passionate about software quality and functional architecture. I enjoy working with diverse teams, building robust code, designing APIs, and collaborating on mission-critical apps. Fluent in Telugu 🇮🇳 and comfortable with multilingual tech environments.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <b>Portfolio Website</b> &mdash;
+        <a class="proj-link" href="https://github.com/Machavaramsaikumar/my-portfolio" target="_blank">Code</a>
+        <br>A responsive, multilingual developer portfolio with sections for About, Projects, and Contact. Written in HTML, CSS, and enhanced JavaScript.
+      </li>
+      <li>
+        <b>API Testing Utility</b><br>
+        Automation scripts for manual API testing—used Postman, Newman, and Java for validation. 
+      </li>
+      <!-- Add more as needed -->
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Connect:<br>
+      <b>Email:</b> <a href="mailto:machavaramsaim@gmail.com">machavaramsaim@gmail.com</a><br>
+      <b>LinkedIn:</b> <a href="https://linkedin.com/in/YOUR-ID" target="_blank">linkedin.com/in/YOUR-ID</a>
+    </p>
+  </section>
+
+  <div class="footer">
+    &copy; 2024 Saikumar Machavaram • Java Developer &amp; API Tester
+  </div>
+</body>
 </html>
