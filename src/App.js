@@ -1,4 +1,8 @@
 import React, { useEffect } from 'react';
+
+// Use HashRouter for GitHub Pages
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -11,7 +15,6 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import StellantisDetail from './components/StellantisDetail';
 import NestDetail from './components/NestDetail';
 
