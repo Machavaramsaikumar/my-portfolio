@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c55765dd.css",
-    "main.js": "/portfolio/static/js/main.f305a4fe.js",
+    "main.css": "/portfolio/static/css/main.cfb7fdae.css",
+    "main.js": "/portfolio/static/js/main.c0cc742d.js",
     "static/media/stellantis-logo.png": "/portfolio/static/media/stellantis-logo.aa6c1aeb4bbc2dc5de9e.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4f399441d9a0281df711.jpg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.c55765dd.css.map": "/portfolio/static/css/main.c55765dd.css.map",
-    "main.f305a4fe.js.map": "/portfolio/static/js/main.f305a4fe.js.map"
+    "main.cfb7fdae.css.map": "/portfolio/static/css/main.cfb7fdae.css.map",
+    "main.c0cc742d.js.map": "/portfolio/static/js/main.c0cc742d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55765dd.css",
-    "static/js/main.f305a4fe.js"
+    "static/css/main.cfb7fdae.css",
+    "static/js/main.c0cc742d.js"
   ]
 }
