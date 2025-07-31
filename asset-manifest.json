@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cfb7fdae.css",
-    "main.js": "/portfolio/static/js/main.c0cc742d.js",
-    "static/media/stellantis-logo.png": "/portfolio/static/media/stellantis-logo.aa6c1aeb4bbc2dc5de9e.png",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.4f399441d9a0281df711.jpg",
-    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/portfolio/index.html",
-    "main.cfb7fdae.css.map": "/portfolio/static/css/main.cfb7fdae.css.map",
-    "main.c0cc742d.js.map": "/portfolio/static/js/main.c0cc742d.js.map"
+    "main.css": "/my-portfolio/static/css/main.00d97658.css",
+    "main.js": "/my-portfolio/static/js/main.b43e73e8.js",
+    "static/media/stellantis-logo.png": "/my-portfolio/static/media/stellantis-logo.aa6c1aeb4bbc2dc5de9e.png",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.4f399441d9a0281df711.jpg",
+    "static/media/slick.svg": "/my-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/my-portfolio/index.html",
+    "main.00d97658.css.map": "/my-portfolio/static/css/main.00d97658.css.map",
+    "main.b43e73e8.js.map": "/my-portfolio/static/js/main.b43e73e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb7fdae.css",
-    "static/js/main.c0cc742d.js"
+    "static/css/main.00d97658.css",
+    "static/js/main.b43e73e8.js"
   ]
 }
