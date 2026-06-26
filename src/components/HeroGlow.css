@@ -1,0 +1,50 @@
+.profile-glow-container {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1.5rem; /* Use 50% for a perfect circle */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.profile-glow-container::before {
+  content: "";
+  position: absolute;
+  inset: -12px; /* Thicker glow */
+  border-radius: inherit;
+  z-index: 2;
+  background: conic-gradient(
+    from 0deg,
+    #a78bfa,
+    #f472b6,
+    #38bdf8,
+    #a78bfa,
+    #f472b6,
+    #38bdf8,
+    #a78bfa
+  );
+  filter: blur(24px) brightness(2.2);
+  opacity: 0.85;
+  animation: neon-glow-rotate 2s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes neon-glow-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.profile-glow-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0 2px 24px 0 rgba(0,0,0,0.18);
+}

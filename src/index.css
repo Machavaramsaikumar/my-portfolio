@@ -1,0 +1,37 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations */
+@keyframes borderGlowPulse {
+  0%, 100% {
+    border-color: rgba(99,102,241,0.6);
+  }
+  50% {
+    border-color: rgba(168,85,247,1);
+  }
+}
+
+@keyframes edgeLaser {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Global styling for smooth font rendering and dark background */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a; /* dark slate background */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensures section spacing and consistency */
+section {
+  scroll-margin-top: 80px;
+}
